@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand i{
+    font-size: 2.5rem;
+}
+
+.navbar .nav-item{
+    padding: 0 .6rem;
+}
+
+.navbar .nav-link{
+    font-size: 1.3rem;
+}
+
+.navbar .nav-link:hover{
+    background: white;
+    color: black;
+}
+
+/* carousel */
+.carousel-inner img{
+    height: 100vh;
+}
+
+.carousel-item h5{
+    color: black;
+    /* margin: auto; */
+}
+
+/* img overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #212529;
+}
+  
+.container2:hover .overlay {
+    opacity: 1;
+}
+  
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+.d-grid {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    justify-content: center;
+}
+
+.col-md-6 .d-grid {
+    position: absolute;
+    top: 75%;
+    width: 100%;
+}
+
+.overlay .text{
+    font-size: 3rem;
+}
+
+/* overview */
+#overview{
+    height: fit-content;
+    padding-bottom: 3rem;
+}
+
+/* swiper */
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+#about .swiper{
+    background: url(/assets/img/reviews.jpeg) !important;
+    background-repeat: no-repeat !important;
+    background-position: right !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+#about .swiper {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  /* border-radius: 3rem; */
+}
+
+#about .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 600px;
+  background: #212529;
+  border-radius: 3rem;
+  padding: 1rem;
+}
+
+#about .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 41vh;
+  background-position: center;
+}
+
+#about .swiper-slide .stars {
+    align-items: center !important;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#about .swiper-slide .stars i {
+    color: gold;
+}
+
+
+#about .swiper-slide p {
+    text-align: center;
+}
+
+/* faqs */
+#faqs{
+    padding: 2rem;
+}
+
+#faqs .row1 span.pe-2 i{
+    color: black;
+    font-size: 2rem;
+}
+
+#faqs .row1 .text{
+    border: 1px solid red;
+    display: inline;
+}
